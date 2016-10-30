@@ -1,6 +1,13 @@
-body{
-	margin: 0;
-	font-family: 'Montserrat', sans-serif;
+/** Removes weird text decorations from 
+Orange Juice icon**/
+a { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:focus { text-decoration: none; }
+a:hover, a:active { text-decoration: none; }
+
+* {
+	font-family: 'Quicksand', sans-serif;
 }
 
 nav{
@@ -15,13 +22,13 @@ nav{
 }
 
 nav span {
-	font-family: 'Montserrat', sans-serif;
 	font-size: 40px;
 	font-weight: thin;
 	color:  #FFFFFF;
 	text-align: left;
  	display: inline;
- 	margin: 100px;
+ 	margin: 100px 50px 45px 45px;
+
 }
 
 
@@ -38,7 +45,40 @@ nav ul li{
 
 nav ul li a{
 	color: white;
+	font-size: 20px;
 	list-style: none;
 	text-decoration: none;
 	height: 45px;
+}
+
+body {
+	padding-top: 200px;
+	margin: 0;
+	color: #f37c00;
+}
+
+.orangeinfo {
+	font-size: 40px;
+}
+
+button {
+	align-items: center;
+	background-color: #6FC9BE;
+	border:none;
+	clear: both;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 14px;
+	padding: 10px 35px;
+	text-decoration: none;
+	transition: all 0.3s ease-in-out;
+}
+
+/** SITE FOOTER **/
+.footer {
+	clear: both;
+	height: 100px;
+	background-color: #6FC9BE;
+	font-size: 14px;
+	padding: 9px 0;
 }
